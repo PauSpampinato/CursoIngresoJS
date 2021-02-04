@@ -2,8 +2,7 @@
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
-function sumar()
-{
+function sumar() {
 	//declaro las variables
 	let num1
 	let num2
@@ -26,9 +25,9 @@ function sumar()
 	suma = num1 + num2;
 
 	//hago alert concatenando literal de cadena con la variable suma 
-	alert("La suma es "+suma);
+	alert("La suma es " + suma);
 
-	
+
 
 }
 

@@ -3,11 +3,18 @@ Debemos lograr tomar un nombre con 'prompt'
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar() {
 
-	const nombre = "Pepito"; 
+	let nombre
 
-	nombre = "Ana"
-
-
+	nombre = prompt("Ingrese su nombre aqui");
 	alert(nombre);
+
+	/*
+	
+		const nombre = "Pepito";
+	
+		nombre = "Ana"
+	
+	
+		alert(nombre);*/
 }
 

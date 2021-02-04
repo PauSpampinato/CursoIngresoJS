@@ -8,8 +8,8 @@ function mostrar() {
 
 	//guardo en la variable nombre el texto que escribió el usuario dentro de la ventana prompt
 	nombre = prompt("Ingrese su nombre");
-// copio el nombre que tengo guardado en la variable nombre dentro de la caja de texto embebida en la página html
-document.getElementById("txtIdNombre").value = nombre;
+	// copio el nombre que tengo guardado en la variable nombre dentro de la caja de texto embebida en la página html
+	document.getElementById("txtIdNombre").value = nombre;
 
 
 }

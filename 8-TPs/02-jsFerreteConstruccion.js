@@ -46,11 +46,11 @@ function Materiales() {
     largo = parseInt(document.getElementById("txtIdLargo").value)
     ancho = parseInt(document.getElementById("txtIdAncho").value)
 
-    area = largo * ancho 
-    cemento=area*2
-    cal=area*3
+    area = largo * ancho
+    cemento = area * 2
+    cal = area * 3
 
     alert(`Se necesitan ${cemento} bolsas de cemento y ${cal} bolsas de cal`);
-    
+
 
 }
