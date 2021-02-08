@@ -10,6 +10,6 @@ function mostrar()
 	else
 	{alert("Es menor de edad")}
 
-	//Estaría mal usar 2 if (ver 21:57hs)
+	//Estaría mal usar 2 if (ver 21:57hs) (lo explico en los apuntes)
 
 }//FIN DE LA FUNCIÓN
