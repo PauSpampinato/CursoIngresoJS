@@ -5,14 +5,7 @@ function mostrar()
 	mes = document.getElementById("txtIdMes").value;
 
 	switch (mes) {
-		case "Enero":
-		case "Febrero":
-		case "Marzo":
-		case "Abril":
-		case "Mayo":
-		case "Junio":
-			alert ("Falta para el invierno");
-			break;
+	
 		case "Julio":
 		case "Agosto":
 			alert ("Estamos en invierno");
@@ -23,6 +16,8 @@ function mostrar()
 		case "Diciembre":
 			alert ("Ya pasó el invierno, ahora calor!");
 			break;	
+		default:	
+			alert ("Falta para el invierno");
 		}
 	
 

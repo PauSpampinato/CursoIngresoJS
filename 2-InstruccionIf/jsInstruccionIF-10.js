@@ -1,13 +1,9 @@
 function mostrar()
 {
 	let nota
-	let min
-	let max
+	
 
-	min = 1
-	max = 10
-
-	nota = Math.round(Math.random()*(max - min) + min);
+	nota = Math.round((Math.random()*9) + 1);
 
 	if (nota >= 9) {
 		alert (`Su nota es ${nota} y es EXCELENTE`);
