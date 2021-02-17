@@ -1,17 +1,15 @@
 function mostrar() {
-	let edad
+  let edad;
 
-	edad = parseInt(document.getElementById("txtIdEdad").value);
+  edad = parseInt(document.getElementById("txtIdEdad").value);
 
-	if (edad < 13) {
-		alert("Es niño");
-	}
-	else if (edad >= 13 && edad <= 17) {
-		alert("Es adolescente");
-	}
-	else {
-		alert("Es adulto");
-	}
+  if (edad < 13) {
+    alert("Es niño");
+  } else if (edad >= 13 && edad <= 17) {
+    alert("Es adolescente");
+  } else {
+    alert("Es adulto");
+  }
 }
 
 /* También podrían pedirme una condición más como que si es mayor de 65
