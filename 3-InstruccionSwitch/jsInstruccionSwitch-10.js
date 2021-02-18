@@ -27,7 +27,7 @@ function mostrar() {
       if (destino == "Bariloche") {
         alert("No se viaja");
       } else {
-        alert("Se viaa");
+        alert("Se viaja");
       }
       break;
   }
