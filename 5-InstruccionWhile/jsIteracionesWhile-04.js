@@ -17,7 +17,7 @@ function mostrar() {
 		}
 	}
 
-
+//VER EN APUNTES LA RESOLUCIÓN DEL PROFE, ES MÁS CORTA
 
 
 }//FIN DE LA FUNCIÓN

@@ -1,9 +1,21 @@
 /*
 Al presionar el botón pedir un sexo
 'f' para femenino, 'm' para masculino.*/
-function mostrar()
-{
-	let sexo
+function mostrar() {
+  let sexo;
+
+  //pido el dato
+  sexo = prompt("Ingrese su sexo: ('f' para femenino o 'm' para masculino)");
+
+  while (!(sexo == "f" || sexo == "m")) {
+    sexo = prompt(
+      "Sexo invalido. Reingrese su sexo: ('f' para femenino o 'm' para masculino"
+    );
+  }
+
+  document.getElementById("txtIdSexo").value = sexo;
+
+  /*
 	let cont = 0
 
 	while (cont == 0) {
@@ -13,11 +25,8 @@ function mostrar()
 			cont = 1
 		}
 		else {
-			alert("Ese sexo no existe");
+			alert("El sexo es invalido");
 			cont = 0
 		}
-	}
-
-
-	
-}//FIN DE LA FUNCIÓN
+	}*/
+} //FIN DE LA FUNCIÓN
