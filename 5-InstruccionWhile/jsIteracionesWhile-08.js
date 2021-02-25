@@ -10,6 +10,10 @@ function mostrar() {
 
   do {
     num = parseInt(prompt("Ingrese un número"));
+    while (isNaN(num)){
+      num = parseInt(prompt("Eso no es un numero. Ingrese un número"));
+
+    }
     if (num >= 0) {
       numpos = numpos + num;
     } else {
