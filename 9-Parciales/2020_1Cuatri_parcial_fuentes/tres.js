@@ -23,7 +23,7 @@ function mostrar() {
       nombre = prompt("Error. Reingrese el nombre: ");
     }
     edad = parseInt(prompt("Ingrese la edad:"));
-    while (isNaN(edad)) {
+    while (edad <=0||isNaN(edad)) {
       edad = parseInt(prompt("Error. Reingrese la edad:"));
     }
     sexo = prompt("Ingrese el sexo(f/m):");
@@ -36,9 +36,9 @@ function mostrar() {
         "Error. Reingrese el estado civil (soltero/casado/viudo):"
       );
     }
-    temperatura = parseInt(prompt("Ingrese la temperatura:"));
+    temperatura = parseFloat(prompt("Ingrese la temperatura:"));
     while (isNaN(temperatura)) {
-      temperatura = parseInt(prompt("Error. Reingrese la temperatura:"));
+      temperatura = parseFloat(prompt("Error. Reingrese la temperatura:"));
     }
 	if(flagtemp==0){
 		tempmax=temperatura
@@ -49,6 +49,13 @@ function mostrar() {
 		tempmax=temperatura
 		nombretempmax=nombre
 	}
+  /*Lo de arriba se puede expresar así también:
+  if(flagtemp==0||temperatura >tempmax){
+    tempmax=temperatura
+		nombretempmax=nombre
+		flagtemp=1
+  }
+  De esta manera me ahorro el else*/
 
 	if (estado=="soltero"){
 		if (sexo=="m"){
